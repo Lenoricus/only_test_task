@@ -55,6 +55,16 @@ button {
     background-color: rgba(106, 191, 75, 0.7);
 }
 
+.dropbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropbtn img {
+    pointer-events: none;
+}
+
 .navigation-info {
     display: none;
     position: fixed;
@@ -64,13 +74,12 @@ button {
     z-index: 1;
 }
 
-.navigation-info .minus {
-    position: inherit;
-    padding: 0 0 0 25px;
-    line-height: 54px;
+.navigation-info img {
+    position: absolute;
+    padding: 25px 0 0 25px;
 }
 
-.navigation-info .text {
+.navigation-info p {
     padding: 0 15px 0 54px;
     line-height: 54px;
 }
@@ -80,51 +89,51 @@ button {
 }
 
 .first-house {
-    top: 230px;
-    left: 1830px;
+    top: 16vh;
+    left: 72vw;
 }
 
 .second-house {
-    top: 340px;
-    left: 740px;
+    top: 25vh;
+    left: 29vw;
 }
 
 .third-house {
-    top: 480px;
-    left: 1550px;
+    top: 37vh;
+    left: 61vw;
 }
 
 .fourth-house {
-    top: 590px;
-    left: 2000px;
+    top: 44vh;
+    left: 78vw;
 }
 
 .stadium {
-    top: 590px;
-    left: 900px;
+    top: 45vh;
+    left: 35vw;
 }
 
 .fifth-house {
-    top: 770px;
-    left: 1440px;
+    top: 58vh;
+    left: 56vw;
 }
 
 .sixth-house {
-    top: 840px;
-    left: 1740px;
+    top: 62vh;
+    left: 68vw;
 }
 
 .seventh-house {
-    top: 950px;
-    left: 2230px;
+    top: 71vh;
+    left: 87vw;
 }
 
 .bridge {
-    top: 940px;
-    left: 530px;
+    top: 70vh;
+    left: 21vw;
 }
 
 .eight-house {
-    top: 1000px;
-    left: 1450px;
+    top: 79vh;
+    left: 57vw;
 }

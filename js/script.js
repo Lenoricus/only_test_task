@@ -1,12 +1,12 @@
 function showElement(button) {
-    let infoElements = document.getElementsByClassName("navigation-info");
+    let dropdowns = document.getElementsByClassName("navigation-info");
 
-    for (let i = 0; i < infoElements.length; i++) {
-        infoElements[i].classList.remove("show");
+    for (let i = 0; i < dropdowns.length; i++) {
+        dropdowns[i].classList.remove("show");
     }
 
-    let infoElement = button.nextElementSibling;
-    infoElement.classList.add("show");
+    let openDropdown = button.nextElementSibling;
+    openDropdown.classList.add("show");
 }
 
 window.onclick = function(event) {
